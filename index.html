@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <title>Bootstrap Example3434</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
-  <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
- 
+  <body class="p-3 m-0 border-0 bd-example">
+
+    <!-- Nav Code -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
@@ -38,102 +41,66 @@
   </div>
 </nav>
 
-<!-- New Section Start -->
-<div class="container px-4 py-5" id="featured-3">
-      <h2 class="pb-2 border-bottom">Bachelor of Science in Information Systems</h2>
-	  <p>The B.S. in Information Systems program prepares students for all potential career positions in the IS field. These include: Systems Analysis and Design, Computer Networking and Health Care Informatics.
-	  <br  />
-	  <br  />For successful completion of the degree, all students must satisfy the general education requirements that are explained in the UMBC Undergraduate Catalog.
-	  The required program courses for the Bachelor of Science Degree are below. Course descriptions can be found in the Course Catalog.</p>
-<div class="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-4">
-    <div class="feature col">
-      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-        <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+   <!-- body Code -->
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <h1 class="display-4 fw-bold text-body-emphasis">Welcome to Department of Information Systems</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Department of Information Systems at UMBC. Our interdisciplinary program helps students develop in demand skills, preparing them for careers in IT and IS. Located near technology hubs, our suburban campus is an exciting place to be for students in tech. With a variety of degree programs to choose from, we offer programs designed to give you options for applying information systems to your career. To learn more, please contact us with any questions.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+		<button type="button" class="btn btn-warning btn-lg px-4 me-sm-3" onclick="location.href='IS436LAB4-CLASS2.html'">Program</button>
+		<button type="button" class="btn btn-dark btn-lg px-4" onclick="location.href='IS436LAB4-CLASS3.html'">Contact Us</button>
+          
+          <button class="btn btn-outline-secondary"><i class="bi bi-search"></i></button>
+        </div>
       </div>
-      <h3 class="fs-4 text-body-emphasis">Information Systems</h3>
-      <ul class="list-unstyled">
-        <li>-IS 300 – Management Information Systems</li>
-        <li>-IS 310 – Software and Hardware Concepts</li>
-        <li>-IS 436 – Structured Systems Analysis & Design</li>
-      </ul>
-      <a href="#" class="icon-link">
-        See More
-        <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-      </a>
+     
     </div>
-    <div class="feature col">
-      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-        <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+	
+	
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          
+          <div class="card">
+            <div class="card-header">
+              Featured
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Student Opportunities</h5>
+              <p class="card-text">Information will be posted below on various opportunities that are available for our current Information Systems students.<br /> <br /><br /></p>
+              <a href="https://informationsystems.umbc.edu/about/current-student-opportunities/" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          
+          <div class="card">
+            <div class="card-header">
+              Featured
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Student Spotlights</h5>
+              <p class="card-text">Our Information Systems Student Spotlights showcase how the IS Department is a community of innovators and leaders making an impact on our world. <br /><br /><br /></p>
+              <a href="https://informationsystems.umbc.edu/home/faculty-and-staff/student-spotlights/" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          
+          <div class="card">
+            <div class="card-header">
+              Featured
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Faculty & Research News</h5>
+              <p class="card-text">UMBC is a public research university leading the world in inclusive excellence in research. Our research aims to further innovation in Information Systems through inclusive interdisciplinary partnerships and collaborations.</p>
+              <a href="https://informationsystems.umbc.edu/home/research/" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <h3 class="fs-4 text-body-emphasis">Mathematics and Computer Science</h3>
-      <ul class="list-unstyled">
-        <li>-MATH 155 – Applied Calculus</li>
-        <li>-MATH 215 – Finite Mathematics for Information Sciences</li>
-        <li>-STAT 351 – Applied Statistics for Business and Economics</li>
-      </ul>
-      <a href="#" class="icon-link">
-        See More
-        <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-      </a>
+    
     </div>
-    <div class="feature col">
-      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-        <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
-      </div>
-      <h3 class="fs-4 text-body-emphasis">Administrative Science</h3>
-      <ul class="list-unstyled">
-        <li>-MGMT 210 – The Practice of Management</li>
-        <li>-ECON 101 – Principles of Microeconomics (SS)</li>
-        <li>-ECON 121 – Principles of Accounting I</li>
-      </ul>
-      <a href="#" class="icon-link">
-        See More
-        <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-      </a>
-    </div>
-    <div class="feature col">
-      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-        <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
-      </div>
-      <h3 class="fs-4 text-body-emphasis">Electives</h3>
-      <ul class="list-unstyled">
-       <p>Courses offered by the IS Department that are not part of the required BTA curriculum. Visit the Electives Page to view a complete list.</p>
-      </ul>
-      <a href="#" class="icon-link">
-        See More
-        <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-      </a>
-    </div>
-  </div>
-  
-  <p>Notes:</p>
-<ul>
-    <li>Students must earn a grade of “C” or better for any course to be applied to the Information Systems major.</li>
-    <li>Before being allowed to take IS 410 and 450 (and then the rest of the IS 400-level core courses), a student must first complete the following gateway requirements:</li>
-    <ul>
-        <li>A grade of “C” or higher in:</li>
-        <ul>
-            <li>MATH 155 – Elementary Calculus</li>
-            <li>IS 147 – Introduction to Computer Programming</li>
-        </ul>
-        <li>And a grade of “B” or higher in:</li>
-        <ul>
-            <li>IS 300 – Management Information Systems</li>
-            <li>IS 310 – Software and Hardware Concepts</li>
-        </ul>
-        <li>IS 300 and IS 310 must be completed in residence, and Information Systems does not support third-time repeat petitions for the purposes of continuing in this major.</li>
-    </ul>
-    <li>Examples of upper-level electives that could be used to help fulfill the IS major requirements include:</li>
-    <ul>
-        <li>IS 303, IS 304, IS 460, IS 461, IS 427, IS 428, IS 430, IS 438, IS 464, IS 471, IS 472, IS 451U, IS 451M, and IS 452, as well as others (see catalog for a full listing).</li>
-    </ul>
-    <li>There are also several special courses, including IS 399, IS 478, IS 479, IS 469, IS 397, and IS 467, among others, that cannot be used to satisfy the IS upper-level elective requirement, but that students can use to gain academic credit for internships, co-ops, and research projects.</li>
-    <li>See your advisor for more information.</li>
-</ul>
-</div>
-
-
-
 <!-- Footer Code -->
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
       <div class="row">
@@ -167,5 +134,6 @@
         </div>
       </div>
     </footer>
- </body>
-</html>
+	
+	</body>
+	</html>
