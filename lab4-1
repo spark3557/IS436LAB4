@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Department of Information Systems &#8211; UMBC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+
+    <body>
+<header>
+<a class="navbar-brand" href="#"> <img src="https://styleguide.umbc.edu/wp-content/uploads/sites/113/2019/03/UMBC-primary-logo-CMYK-on-black.png" alt="Image of logo" width="250" alt=""></a>
+	<nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        
+
+<nav>
+	<ul>
+	<li><a href="IS474Lab4-1.html">Home</a></li>
+	<li><a href="IS474Lab4-2.html">Undergraduate Program</a></li>
+	<li><a href="IS474Lab4-3.html">Contact Us</a> </li>
+	</ul>
+</nav>
+</header>	
+	
+
+</div>
+<h1><!--title of the screen-->
+<br />
+Department of Information Systems
+</h1>
+
+<p class="aboutus"><!--paragraph about the page-->
+Welcome to the Department of Information Systems at UMBC. <br  />Our interdisciplinary program helps students develop in demand skills, preparing them for careers in IT and IS. <br  /> Located near technology hubs, our suburban campus is an exciting place to be for students in tech.<br  /> With a variety of degree programs to choose from, we offer programs designed to give you options for applying information systems to your career. <br  /> To learn more, please contact us with any questions.
+</p>
+
+<br  />
+<br  />
+<br  />
+<br  />
+<br  />
+
+<img src="https://www.csee.umbc.edu/wp-content/uploads/sites/659/2022/02/ite-building.jpg" alt="umbc Picture" class="image1">
+
+   <footer>
+        <img src="https://umbc.edu/wp-content/uploads/2022/02/umbc-primary-logo-250x58.png" class="team-logo">
+        <p>Savannah Park</p>
+        <hr> <!-- Separation line -->
+        <p>© 2024</p>
+    </footer>
+
+</body>
+</html>
